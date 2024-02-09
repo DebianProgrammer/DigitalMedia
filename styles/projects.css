@@ -1,0 +1,23 @@
+.projects {
+  margin-top: 5%;
+  float:left;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: fill-available;
+  display: grid;
+  /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.projects .project {
+  background-color: var(--color-dark);
+  padding: 20px;
+  margin: 10px;
+  color: var(--color-normal);
+}
+
+img {
+  max-width: 50%;
+  /*float: right;*/
+}
+
