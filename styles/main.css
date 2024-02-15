@@ -31,7 +31,7 @@ html {
     text-decoration: none;
     transition: 1s;
     color: var(--color-text);
-    font-size: 24px;
+    font-size: calc(24px + 0.5vw);
     padding: 14px 16px;
 }
 
@@ -42,8 +42,23 @@ html {
 
 .topnav .title {
     text-align: center;
-    font-size: 24px;
+    font-size: calc(16px + 0.5vw);
     color: var(--color-superlight);
     text-decoration: none;
     margin-right: auto;
+}
+
+.button {
+  border:solid 2px var(--color-normal);
+  padding: 5px 10px;
+  font-size: calc(12px + 0.5vw);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: var(--color-normal);
+  color: var(--color-dark);
+  cursor: pointer;
 }
