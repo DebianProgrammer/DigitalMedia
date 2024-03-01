@@ -16,6 +16,15 @@
   color: var(--color-normal);
 }
 
+.gridimages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: fill-available;
+}
+
 img {
   max-width: 50%;
   /*float: right;*/
